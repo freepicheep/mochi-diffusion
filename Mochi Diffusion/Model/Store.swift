@@ -170,6 +170,14 @@ final class Store: ObservableObject {
                 s.steps = self.steps
                 s.guidanceScale = self.guidanceScale
                 
+                // Do purity check on prompt
+                let promptWords = s.prompt.components(separatedBy: " ")
+                for word in promptWords {
+                    if dangerousPrompts.contains(word) {
+                        s.prompt = holyPrompt
+                    }
+                }
+                
                 // Generate
                 var seedUsed = self.seed == 0 ? UInt32.random(in: 0 ..< UInt32.max) : self.seed
                 for i in 0 ..< numberOfBatches {
