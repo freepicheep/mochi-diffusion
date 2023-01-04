@@ -1,10 +1,15 @@
 <p align="center">
-<img height="256" src="https://github.com/godly-devotion/mochi-diffusion/raw/main/Mochi Diffusion/Assets.xcassets/AppIcon.appiconset/AppIcon.png" />
+<img height="256" src="https://github.com/godly-devotion/MochiDiffusion/raw/main/Mochi Diffusion/Assets.xcassets/AppIcon.appiconset/AppIcon.png" />
 </p>
 
 <h1 align="center">Mochi Diffusion</h1>
 
 <p align="center">Run Stable Diffusion on Apple Silicon Macs natively</p>
+
+<p align="center">
+<a href="https://github.com/godly-devotion/MochiDiffusion/blob/main/README.md">English</a>,
+<a href="https://github.com/godly-devotion/MochiDiffusion/blob/main/README.ko.md">한국어</a>
+</p>
 
 ![Screenshot](.github/images/screenshot.png)
 
@@ -25,11 +30,9 @@ This app uses [Apple's Core ML Stable Diffusion implementation](https://github.c
 
 ## Releases
 
-Download the latest version from the [releases](https://github.com/godly-devotion/mochi-diffusion/releases) page.
+Download the latest version from the [releases](https://github.com/godly-devotion/MochiDiffusion/releases) page.
 
 ## Running
-
-When trying to open the app for the first time, Gatekeeper will prevent you from doing so because the app is not code signed. In order to bypass this warning, you need to right-click on the app and select "Open". You will have to do this twice in order to get the option to open the app.
 
 When using a model for the very first time, it may take up to 30 seconds for the Neural Engine to compile a cached version. Afterwards, subsequent generations will be much faster.
 
@@ -62,6 +65,14 @@ A few models have been converted and uploaded [here](https://huggingface.co/godl
 ## Privacy
 
 All generation happens locally and absolutely nothing is sent to the cloud.
+
+## Contributing
+
+Mochi Diffusion is always looking for contributions, whether it's through bug reports, code, or new translations.
+
+- If you find a bug, or would like to suggest a new feature or enhancement, try [searching for your problem first](https://github.com/godly-devotion/MochiDiffusion/discussions) as it helps avoid duplicates. If you can't find your issue, feel free to [create a new discussion](https://github.com/godly-devotion/MochiDiffusion/discussions/new).
+
+- If you're looking to contribute code, feel free to [open a Pull Request](https://github.com/godly-devotion/MochiDiffusion/pulls) or [create a new discussion](https://github.com/godly-devotion/MochiDiffusion/discussions) to talk about it first.
 
 ## Credits
 
